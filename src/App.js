@@ -1,7 +1,10 @@
+import './App.css'
+import Homepage from './pages/homepage';
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>Learn React</header>
+    <div>
+      <Homepage />
     </div>
   );
 }
